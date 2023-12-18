@@ -1,0 +1,38 @@
+
+
+.navbar-brand{font-family: 'Ubuntu', sans-serif;
+font-size: 2em;
+font-weight: bold;
+}
+
+.navbar #myMenu .custom-nav .nav-item a {
+    color: white;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: #a4d6fb;
+}
+.back-image{
+     background-size: cover;
+     background-position: center center;
+     min-height: 100vh;
+     background-repeat: no-repeat;
+     border-radius: 0px;
+     margin-top: 70px;
+}
+/*margin for welcome to osms*/
+.mainHeading{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:500px) {
+    
+
+.myClass{
+    margin-top: 350px;
+    text-align: center;
+}
+}
+
+.nav-link.active {
+    color: red; /* Set the desired color (e.g., red) */
+}
